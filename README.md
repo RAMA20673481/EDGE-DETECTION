@@ -84,9 +84,8 @@ plt.subplot(222); plt.axis("off"); plt.imshow(img_gray, cmap='gray');      plt.t
 plt.figure(figsize = (12,16))
 plt.axis("off"); plt.imshow(edges,cmap='gray');plt.title('Canny Edge Map');
 
-
-## Output:
 ```
+## Output:
 ### SOBEL EDGE DETECTOR
 
 <img width="883" height="726" alt="Screenshot 2025-09-27 132707" src="https://github.com/user-attachments/assets/11669813-1607-47ac-9adb-afd8ae944856" />
@@ -106,6 +105,6 @@ plt.axis("off"); plt.imshow(edges,cmap='gray');plt.title('Canny Edge Map');
 
 <img width="867" height="900" alt="Screenshot 2025-09-27 132813" src="https://github.com/user-attachments/assets/4f40f39b-b5f1-4b60-9d05-3bd0b8267340" />
 
-``
+
 ## Result:
 Thus the edges are detected using Sobel, Laplacian, and Canny edge detectors.
